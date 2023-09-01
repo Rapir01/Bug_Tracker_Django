@@ -1,0 +1,28 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    
+    
+
+}
+.login-form {
+        background: #cbdbfe;
+        padding: 30px; 
+        border-radius: 5%;
+    }
+
+.login-body {
+        background-image: url('../images/login_bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+.invalid-feedback{
+    display: none;
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: .875em;
+    color: var(--bs-form-invalid-color);
+}
